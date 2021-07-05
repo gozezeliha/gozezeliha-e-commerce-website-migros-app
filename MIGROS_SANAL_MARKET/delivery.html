@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="styles/delivery.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/delivery.css">
+
+  <title>Delivery</title>
+</head>
+
+<body>
+
+
+  <div class="row header-top p-3">
+    <div class="col"></div>
+    <h6 class="orange-text-bold-color-20">TESLİMAT YÖNTEMİNİZİ BELİRLEYİN</h6>
+    <p class="orange-text-color-20 p-3">Siparişinizi nasıl getirelim?</p>
+  </div>
+
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-8">
+      <div class="row center-text">
+        <div class="col-md-3 d-content"> <h2 class="orange-text-color-fontsize30px padding-10" id="selection">Adresime Gelsin</h2></div>
+        <div class="col-md-4"> <small class="blue-text-color">Teslimat
+          Bölgeniz: Meclis, Sancaktepe, İstanbul</small></div>
+      </div>  
+    </div>
+    <div class="col-md"></div>
+  </div>
+
+  <!--Tabs-->
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-8" style="width: 60%;">
+      <div class="row nav nav-tabs">
+        <div class="col-md-6 blue-text_bold-color text-center line-height-64px" data-toggle="tab" 
+          href="#sizegetirelim">
+          <p class="w-h-100" id="sizegetirelimTab">
+            <i class="fas fa-truck"></i> Adresime Gelsin
+          </p>
+        </div>
+        <div class="col-md-6 blue-text_bold-color text-center line-height-64px" data-toggle="tab" 
+          href="#magazadanalin">
+          <p class="w-h-100" id="magazadanAlinTab">
+            <i class="fas fa-store"></i> Mağazadan Alacağım
+          </p>
+        </div>
+      </div>
+      <div class="container">
+        <!-- <ul class="nav nav-tabs p-15">
+          <li class="active blue-text_bold-color" id="sizegetirelimTab"><a data-toggle="tab" href="#sizegetirelim"> <i
+                class="fas fa-truck"></i>
+              Size Getirelim</a></li>
+          <li class="blue-text_bold-color" id="magazadanAlinTab"><a data-toggle="tab" href="#magazadanalin"><i class="fas fa-store"></i>
+              Mağazadan Alın</a></li>
+        </ul> -->
+
+
+
+        <!--Size Getirelim içerik -->
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="sizegetirelim" role="tabpanel"
+            aria-labelledby="nav-sizegetirelim-tab">
+            <!--Card 1 start-->
+            <div class="container">
+              <!--Teslimat adres ve fatura adres start-->
+              <div class="row">
+                <div class="col-md-6 blue-text_bold-color p-3">Teslimat Adres Bilgileri</div>
+                <div class="col-md-6 blue-text_bold-color p-3">Fatura Adres Bilgileri</div>
+              </div>
+              <!--Teslimat adres ve fatura adres end-->
+              <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                  <div class="card div-border-hover border-color-green">
+                    <div class="card-body ">
+                      <div class="row">
+                        <div class="col-md-1">
+                          <!--check start-->
+                          <div class="form-check">
+                            <input class="form-check-input checkbox-round green-checkbox" type="checkbox" value=""
+                              id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked"></label>
+                          </div>
+                          <!--checked end-->
+                        </div>
+                        <div class="col-md-11">
+                          <div class="row">
+                            <div class="col-md-4">
+                              <h5 class="card-title blue-text-color">Ev Sancaktepe</h5>
+                            </div>
+                            <!--Düzenle ve sil butonu position start-->
+                            <div class="col-md-8 d-flex justify-content-end">
+                              <a href="#" class="text-decoration-none">Düzenle</a>
+                              <a href="#" class="margin-2 text-decoration-none">Sil</a>
+                            </div>
+                          </div>
+                          <!--Düzenle ve Sil butonu position end-->
+                          <p class="blue-text-color">0850 777 00 00</p>
+                          <p class="card-text gray-text-color text-wrap">Cemal Gürsel Cad.Pınarbaşı Mah.3851.sokak Bina
+                            No:30 Kapı
+                            No:12 A
+                            Blok
+                            Konyaaltı/ANTALYA</p>
+                          <div class="row d-flex justify-content-center"><a href="#"
+                              class="btn green-button-bgcolor div-border-hover w-75">Bu
+                              Adresi
+                              Seçtiniz</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Card 1 End-->
+
+                <!--Card 2 start-->
+                <div class="col">
+                  <div class="card div-border-hover">
+                    <div class="card-body ">
+                      <div class="row">
+                        <div class="col-md-1">
+                          <!--check start-->
+                          <div class="form-check">
+                            <input class="form-check-input checkbox-round" type="checkbox" value=""
+                              id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault"></label>
+                          </div>
+                          <!--checked end-->
+                        </div>
+                        <div class="col-md-11">
+                          <div class="row">
+                            <div class="col-md-4">
+                              <h5 class="card-title blue-text-color">Ev Sancaktepe</h5>
+                            </div>
+                            <!--Düzenle ve sil butonu position start-->
+                            <div class="col-md-8 d-flex justify-content-end">
+                              <a href="#" class="text-decoration-none">Düzenle</a>
+                              <a href="#" class="margin-2 text-decoration-none">Sil</a>
+                            </div>
+                          </div>
+                          <!--Düzenle ve Sil butonu position end-->
+                          <p class="blue-text-color">0850 777 00 00</p>
+                          <p class="card-text gray-text-color text-wrap">Cemal Gürsel Cad.Pınarbaşı Mah.3851.sokak Bina
+                            No:30 Kapı
+                            No:12 A
+                            Blok
+                            Konyaaltı/ANTALYA</p>
+                          <div class="row d-flex justify-content-center"><a href="#"
+                              class="btn btn-primary button-blue-color div-border-hover w-75">Fatura
+                              Adresi
+                              Olarak
+                              Seçtiniz</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Card 2 End-->
+
+                <!--Card 3 Start-->
+                <div class="col">
+                  <div class="card div-border-hover">
+                    <div class="card-body ">
+                      <div class="row">
+                        <div class="col-md-1">
+                          <!--check start-->
+                          <div class="form-check">
+                            <input class="form-check-input checkbox-round" type="checkbox" value=""
+                              id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault"></label>
+                          </div>
+                          <!--checked end-->
+                        </div>
+                        <div class="col-md-11">
+                          <div class="row">
+                            <div class="col-md-4">
+                              <h5 class="card-title blue-text-color">Buyaka Ofis</h5>
+                            </div>
+                            <!--Düzenle ve sil butonu position start-->
+                            <div class="col-md-8 d-flex justify-content-end">
+                              <a href="#" class="text-decoration-none">Düzenle</a>
+                              <a href="#" class="margin-2 text-decoration-none">Sil</a>
+                            </div>
+                          </div>
+                          <!--Düzenle ve Sil butonu position end-->
+                          <p class="blue-text-color">0850 777 00 00</p>
+                          <p class="card-text gray-text-color text-wrap">Cemal Gürsel Cad.Pınarbaşı Mah.3851.sokak Bina
+                            No:30 Kapı
+                            No:12 A
+                            Blok
+                            Konyaaltı/ANTALYA</p>
+                          <div class="row d-flex justify-content-center"><a href="#"
+                              class="btn btn-primary button-blue-color div-border-hover w-75">Bu Adresi
+                              Seçtiniz</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Card 3 End-->
+
+                <!--Card 4 Start-->
+                <div class="col">
+                  <div class="card div-border-hover border-color-green">
+                    <div class="card-body ">
+                      <div class="row">
+                        <div class="col-md-1">
+                          <!--check start-->
+                          <div class="form-check">
+                            <input class="form-check-input checkbox-round green-checkbox" type="checkbox" value=""
+                              id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked"></label>
+                          </div>
+                          <!--checked end-->
+                        </div>
+                        <div class="col-md-11">
+                          <div class="row">
+                            <div class="col-md-4">
+                              <h5 class="card-title blue-text-color">Buyaka Ofis</h5>
+                            </div>
+                            <!--Düzenle ve sil butonu position start-->
+                            <div class="col-md-8 d-flex justify-content-end">
+                              <a href="#" class="text-decoration-none">Düzenle</a>
+                              <a href="#" class="margin-2 text-decoration-none">Sil</a>
+                            </div>
+                          </div>
+                          <!--Düzenle ve Sil butonu position end-->
+                          <p class="blue-text-color">0850 777 00 00</p>
+                          <p class="card-text gray-text-color text-wrap">Cemal Gürsel Cad.Pınarbaşı Mah.3851.sokak Bina
+                            No:30 Kapı
+                            No:12 A
+                            Blok
+                            Konyaaltı/ANTALYA</p>
+                          <div class="row d-flex justify-content-center"><a href="#"
+                              class="btn green-button-bgcolor div-border-hover w-75">Fatura
+                              Adresi Olarak Seçtiniz</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Card 4 End-->
+
+
+
+
+          <!--MAĞAZADAN ALIN TAB START-->
+          <div class="tab-pane fade" id="magazadanalin" role="tabpanel" aria-labelledby="nav-magazadanalin-tab">
+            <!--Size Getirelim içerik -->
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="sizegetirelim" role="tabpanel"
+                aria-labelledby="nav-sizegetirelim-tab">
+                <!--Card 1 start-->
+                <div class="container">
+                  <!--Teslimat adres ve fatura adres start-->
+                  <div class="row">
+                    <div class="col-md-6 blue-text_bold-color p-3 justify-content-flex-end">Teslim Alabileceğiniz
+                      Mağazalar
+                      <a class="text-decoration-none border-color-blue div-border-hover f-right" data-toggle="modal"
+                        data-target="#modal_ornegi">Farklı Bir
+                        Mağaza Seç</a>
+
+                    </div>
+                    <div class="col-md-6 blue-text_bold-color p-3">Fatura Adres Bilgileri</div>
+                  </div>
+                  <!--Teslimat adres ve fatura adres end-->
+                  <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                      <div class="card div-border-hover border-color-green">
+                        <div class="card-body ">
+                          <div class="row">
+                            <div class="col-md-1">
+                              <!--check start-->
+                              <div class="form-check">
+                                <input class="form-check-input checkbox-round green-checkbox" type="checkbox" value=""
+                                  id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked"></label>
+                              </div>
+                              <!--checked end-->
+                            </div>
+                            <div class="col-md-11">
+                              <div class="row">
+                                <div class="col-md-7">
+                                  <h5 class="card-title blue-text-color">Sancaktepe Mağazası</h5>
+                                </div>
+                                <div class="col-md-5 d-flex justify-content-end blue-text-color">
+                                  <a href="#" class="text-decoration-none">Haritada Gör</a>
+                                </div>
+                              </div>
+                              <p class="card-text gray-text-color text-wrap line-height-74px">Türkey, İstanbul,
+                                Sancaktepe, Emek Mah.,Ordu Cad., 12</p>
+                              <div class="row d-flex justify-content-center"><a href="#"
+                                  class="btn green-button-bgcolor div-border-hover w-75">Bu Mağazayı Seçtiniz</a></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--Card 1 End-->
+
+                    <!--Card 2 start-->
+                    <div class="col">
+                      <div class="card div-border-hover">
+                        <div class="card-body ">
+                          <div class="row">
+                            <div class="col-md-1">
+                              <!--check start-->
+                              <div class="form-check">
+                                <input class="form-check-input checkbox-round" type="checkbox" value=""
+                                  id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault"></label>
+                              </div>
+                              <!--checked end-->
+                            </div>
+                            <div class="col-md-11">
+                              <div class="row">
+                                <div class="col-md-4">
+                                  <h5 class="card-title blue-text-color">Ev Sancaktepe</h5>
+                                </div>
+                                <!--Düzenle ve sil butonu position start-->
+                                <div class="col-md-8 d-flex justify-content-end blue-text-color">
+                                  <a href="#" class="text-decoration-none">Düzenle</a>
+                                  <a href="#" class="margin-2 text-decoration-none">Sil</a>
+                                </div>
+                              </div>
+                              <!--Düzenle ve Sil butonu position end-->
+                              <p class="blue-text-color">0850 777 00 00</p>
+                              <p class="card-text gray-text-color text-wrap">Cemal Gürsel Cad.Pınarbaşı Mah.3851.sokak
+                                Bina
+                                No:30 Kapı
+                                No:12 A
+                                Blok
+                                Konyaaltı/ANTALYA</p>
+                              <div class="row d-flex justify-content-center"><a href="#"
+                                  class="btn btn-primary button-blue-color div-border-hover w-75">Fatura
+                                  Adresi
+                                  Olarak
+                                  Seçtiniz</a></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--Card 2 End-->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Sipariş Özeti Card start -->
+    <div class="col-md-3">
+      <div class="card border-radius-6 ">
+        <div class="card-body ">
+          <div class="row">
+            <div class="col-md-6">
+              <h5 class="card-title blue-text_bold-color">Sipariş Özeti</h5>
+            </div>
+            <div class="col-md-6 blue-text-color-12 d-flex justify-content-sm-end">Sepetinizdeki Ürünler (2)
+            </div>
+            <hr>
+          </div>
+          <div class="row line-height">
+            <div class="col-md-7 gray-text-color-16">Ürün Tutarı(KDV Dahil)</div>
+            <div class="col-md-5 flex-end blue-text_bold-color">1.200,00 TL</div>
+            <div class="col-md-6 softgray-text-color-16">Teslimat Ücreti</div>
+            <div class="col-md-6 flex-end blue-text-color">9.99 TL</div>
+            <div class="col-md-6 softgray-text-color-16">Plastik Poşet</div>
+            <div class="col-md-6 flex-end blue-text-color">0.25 TL</div>
+            <div class="col-md-6 green-text-14">İndirim</div>
+            <div class="col-md-6 flex-end green-text-14">-3.80 TL</div>
+          </div>
+          <div class="row d-flex align-items-center justify-content-center">
+            <button class="button-blue-style div-border-hover">Devam Et 1.200,00 TL</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--Modal1 start-->
+  <div class="modal" id="modal_ornegi">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content scroll">
+        <div class="modal-header blue-modal">
+          <h5 class="modal-title">Mağaza Seç</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="black-text-color-16">Lütfen siparişinizi teslim alacağınız mağazayı seçiniz.</p>
+
+          <div class="col m-2">
+            <div class="card div-border-hover">
+              <div class="card-body">
+                <div class="row">
+                  <!--checked start-->
+                  <div class="col-md-1">
+                    <div class="form-check">
+                      <input class="form-check-input checkbox-round" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault"></label>
+                    </div>
+                  </div>
+                  <!--checked end-->
+
+                  <!--Address start-->
+                  <div class="col-md-11">
+                    <div class="row">
+                      <div class="col-md-5">
+                        <h5 class="card-title blue-text-color-bold-14">Kızıltoprak Mağazası</h5>
+                      </div>
+                      <div class="col-md-7 d-flex justify-content-end blue-text-color-12">
+                        <a href="#" class="text-decoration-none">Haritada Gör</a>
+                      </div>
+                    </div>
+                    <p class="card-text gray-text-color-12 text-wrap">Cemal Gürsel Cad.Pınarbaşı
+                      Mah.3851.sokak Bina No:30 Kapı No:12 A Blok Konyaaltı/ANTALYA</p>
+                  </div>
+                  <!--Address End-->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Modal1 end-->
+
+          <!--Modal2 start-->
+          <div class="col m-2">
+            <div class="card div-border-hover border-color-green">
+              <div class="card-body ">
+                <div class="row">
+                  <!--checked start-->
+                  <div class="col-md-1">
+                    <div class="form-check">
+                      <input class="form-check-input checkbox-round green-checkbox" type="checkbox" value=""
+                        id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault"></label>
+                    </div>
+                  </div>
+                  <!--checked end-->
+
+                  <!--Address start-->
+                  <div class="col-md-11">
+                    <div class="row">
+                      <div class="col-md-5">
+                        <h5 class="card-title blue-text-color-bold-14">Kızıltoprak Mağazası</h5>
+                      </div>
+                      <div class="col-md-7 d-flex justify-content-end blue-text-color-12">
+                        <a href="#" class="text-decoration-none">Haritada Gör</a>
+                      </div>
+                    </div>
+                    <p class="card-text gray-text-color-12 text-wrap">Cemal Gürsel Cad.Pınarbaşı
+                      Mah.3851.sokak Bina No:30 Kapı No:12 A Blok Konyaaltı/ANTALYA</p>
+                  </div>
+                  <!--Address End-->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Modal2 end-->
+
+          <!--Modal3 start-->
+          <div class="col m-2">
+            <div class="card div-border-hover">
+              <div class="card-body ">
+                <div class="row">
+                  <!--checked start-->
+                  <div class="col-md-1">
+                    <div class="form-check">
+                      <input class="form-check-input checkbox-round" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault"></label>
+                    </div>
+                  </div>
+                  <!--checked end-->
+
+                  <!--Address start-->
+                  <div class="col-md-11">
+                    <div class="row">
+                      <div class="col-md-5">
+                        <h5 class="card-title blue-text-color-bold-14">Kızıltoprak Mağazası</h5>
+                      </div>
+                      <div class="col-md-7 d-flex justify-content-end blue-text-color-12">
+                        <a href="#" class="text-decoration-none">Haritada Gör</a>
+                      </div>
+                    </div>
+                    <p class="card-text gray-text-color-12 text-wrap">Cemal Gürsel Cad.Pınarbaşı
+                      Mah.3851.sokak Bina No:30 Kapı No:12 A Blok Konyaaltı/ANTALYA</p>
+                  </div>
+                  <!--Address End-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer d-flex justify-content-center">
+            <button type="button" class="btn btn-primary button-blue-color div-border-hover w-100">
+              Devam Et</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+          <!--Modal3 end-->
+
+
+
+
+
+
+  <script src="scripts/delivery.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

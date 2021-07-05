@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <title>Migros-Project</title>
+</head>
+
+<body>
+
+  <div class="card-header header-bg-color">
+    <div class="container col-md">
+      <div class="row m-3">
+        <div class="col-md-2 migros-logo-style">
+          <img src="images/21483323.546f014350b43.jpg" alt="migros-logo" width="125px" height="75px"
+            style="border-radius: 1rem;">
+        </div>
+
+        <div class="col d-flex">
+        </div>
+        <!--USER-LOGIN-START-->
+        <div class="col-md-4 text-end margin-auto div-center">
+          <button type="button" class="btn btn-outline-light basket-text-14 login-button-style" data-bs-toggle="modal"
+            data-bs-target="#userloginModal"> <i class="far fa-user p-md-2"></i>
+            Üye Ol veya Giriş Yap
+          </button>
+          <!-- <button type="button" class="btn btn-outline-light basket-text-14 login-button-style"><a
+              href="user_login.html"></a> 
+            <i class="far fa-user"></i>Üye Ol veya Giriş Yap</button> -->
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Login Button Modal Start -->
+    <div class="modal fade" id="userloginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header login-text-23 bg-light">
+            <h5 class="modal-title" id="exampleModalLabel">Giriş Yap</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+
+            <div class="form-group">
+              <label for="phone">Cep telefonu numaranı girerek devam et</label>
+              <input type="phone" name="phone" id="phone" class="form-control btn-hover" placeholder="Telefon Numarası">
+            </div>
+            <div class="d-grid m-4">
+              <button class="btn green-button-bgcolor login-button-style2" id="uyeGiris" type="button">GİRİŞ YAP</button> <br>
+              <P style="text-align: center;">veya</P>
+              <button class="btn btn-primary login-button-style2" type="button"><i class="fab fa-facebook-square"></i>
+                FACEBOOK İLE BAĞLAN</button>
+              <br>
+              <div class="form-row">
+                <div class="col-md-6">
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="modal-footer bg-light">
+            <div class="d-grid">
+              <button class="btn text-17 div-center id="yeniuyelik" type="button">ÜYE OL</button> <br>
+
+              <div class="form-row">
+                <div class="col-md-6">
+                </div>
+                <div class="col-md-6">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Login Button Modal End -->
+<!--USER-LOGIN-END-->
+
+
+
+
+
+    <!--DELIVERY-BUTTON START-->
+    <div class="container">
+      <div class="row m-3 row-center-style">
+        <div class="col-md-4">
+          <button class="btn btn-outline-secondary delivery-button-style text-black-color-15px btn-hover"> <i
+              class="fas fa-map-marker-alt"></i>
+            <a href="delivery.html" style="text-decoration: none;" class="delivery-button-style">Teslimat Yöntemi Seç</a> 
+          </button>
+        </div>
+        <!--DELIVERY-BUTTON END-->
+
+        <!--SEARCH-BUTTON START-->
+        <div class="col-md-5">
+          <div class="col d-flex">
+            <input id="search-input" type="search" placeholder="Migros Sanal Market'de Ara!" name="search"
+              class="form-control m-2 btn-outline-secondary delivery-button-style text-black-color-15px btn-hover">
+            <button id="search-button" type="button"
+              class="btn btn-outline-secondary btn-hover text-black-color-15px m-2">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </div>
+        <!--SEARCH-BUTTON END-->
+
+        <!--BASKET-BUTTON START-->
+        <div class="col-md-3 div-center icon-style">
+          <button class="btn btn-outline-secondary text-black-color-15px basket-button-style btn-hover"> <i
+              class="fas fa-shopping-cart"></i>
+            Sepetim</button>
+        </div>
+        <!--BASKET-BUTTON END-->
+
+      </div>
+    </div>
+
+
+    <!--NAVBAR START-->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <a class="navbar-brand" href="#"></a>
+          <ul
+            class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-evenly bg-light m-2 color-text d-flex justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link link-hover text-black-color" href="#">MEYVE,SEBZE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-hover" href="#">ET,TAVUK,BALIK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-hover" href="#">SÜT,KAHVALTILIK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-hover" href="#">EV,YAŞAM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-hover" href="#">FIRIN,PASTANE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-hover" href="#">KOZMETİK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-hover" href="#">İÇECEK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-hover" href="#">DONDURMA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-hover" href="#">DETERJAN,TEMİZLİK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-hover" href="#">AKSESUAR</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-hover" href="#">KİTAP,KIRTASİYE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-hover" href="#">ÇİÇEK,SAKSI</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!--NAVBAR END-->
+
+    <!--CAROUSEL START-->
+    <div class="container">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img
+              src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/banner/main_page_slider/18351/20385-781_web_slider-yaz-kampanyalar%E2%94%80%E2%96%92-sampuan-c0dd09.png"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/banner/main_page_slider/18325/20359-781_web_slider-yaz-kampanyalar%E2%94%80%E2%96%92-krem-a97b02.png"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/banner/main_page_slider/18234/20268-780_web_tereyag-174487.png"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/banner/main_page_slider/18354/20388-781_web_slider_taze_persembe-4f3dd5.png"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/slayt_images/6.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!--CARAUSEL END-->
+
+    <!--CARDS START-->
+    <div class="container p-md-5">
+      <div class="row">
+
+        <div class="col-sm-2">
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/banner/main_page_under_slider/18169/20203-780_freebox_kurban-0c07e7.png"
+                alt="card-1" class="small-card-style">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/banner/main_page_under_slider/18004/20038-780_freebox-dondurmalar-e26b21.png"
+                alt="card-2" class="small-card-style">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/banner/main_page_under_slider/8079/10113-738_freebox_sm_ozel-f2c906.png"
+                alt="card-3" class="small-card-style">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <div class="card">
+            <div class="card-img">
+              <img src="images/images_small_card/20217-780_freebox_temizlik-3dacac.jpg" alt="card-4"
+                class="small-card-style">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <div class="card">
+            <div class="card-img">
+              <img src="images/images_small_card/20221-780_freebox_atıstırmalıklar-7981f4.jpg" alt="card-5"
+                class="small-card-style">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <div class="card">
+            <div class="card-img">
+              <img src="images/images_small_card/20206-780_freebox-caykahve-0d7fea.jpg" alt="card-6"
+                class="small-card-style">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!--CARDS-END-->
+
+
+    <!--MINI-CARDS-START-->
+    <div class="container">
+      <h1 class="text-black-color-23px">Migros'u Keşfet</h1>
+
+      <div class="row">
+
+        <div class="col-sm">
+          <div class="card btn-hover">
+            <div class="card-img">
+              <img
+                src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/category/list/2/meyvesebze-b185f2-396x168.png"
+                alt="card1" class="small-card-style">
+            </div>
+          </div>
+          <p class="text-black-color-15px">Sebze,Meyve</p>
+        </div>
+
+        <div class="col-sm">
+          <div class="card btn-hover">
+            <div class="card-img">
+              <img
+                src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/category/list/3/ettavukbalik-da36d0-396x168.png"
+                alt="card2" class="small-card-style">
+            </div>
+          </div>
+          <p class="text-black-color-15px">Et,Tavuk,Balık</p>
+        </div>
+
+        <div class="col-sm">
+          <div class="card btn-hover">
+            <div class="card-img">
+              <img
+                src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/category/list/4/sutkahvaltilik-41e784-396x168.png"
+                alt="card3" class="small-card-style">
+            </div>
+          </div>
+          <p class="text-black-color-15px">Süt,Kahvaltılık</p>
+        </div>
+
+        <div class="col-sm">
+          <div class="card btn-hover">
+            <div class="card-img">
+              <img
+                src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/category/list/5/temel-gida-menu-gorsel-2021-d9c853-396x168.png"
+                alt="card4" class="small-card-style">
+            </div>
+          </div>
+          <p class="text-black-color-15px">Temel Gıda</p>
+        </div>
+
+        <div class="col-sm">
+          <div class="card btn-hover">
+            <div class="card-img">
+              <img
+                src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/category/list/125/meze-hazir-yemek-donuk-menu-gorsel-2021-f6e72a-396x168.png"
+                alt="card5" class="small-card-style">
+            </div>
+          </div>
+          <p class="text-black-color-15px">Meze,Hazır Yemek</p>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <div class="card btn-hover">
+                <div class="card-img">
+                  <img
+                    src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/category/list/126/firin-pastane-menu-gorsel-2021-d470e4-396x168.png"
+                    alt="card6" class="small-card-style">
+                </div>
+              </div>
+              <p class="text-black-color-15px">Fırın,Pastane</p>
+            </div>
+
+            <div class="col-sm">
+              <div class="card btn-hover">
+                <div class="card-img">
+                  <img
+                    src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/category/list/1051/msm-dondurma-app-menu-gorsel-ea9319.png-ea9319-396x168.png"
+                    alt="card7" class="small-card-style">
+                </div>
+              </div>
+              <p class="text-black-color-15px">Dondurma</p>
+            </div>
+
+            <div class="col-sm">
+              <div class="card btn-hover">
+                <div class="card-img">
+                  <img
+                    src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/category/list/70651/atistirmalik-menu-gorsel-2021-c30f0f-396x168.png"
+                    alt="card8" class="small-card-style">
+                </div>
+              </div>
+              <p class="text-black-color-15px">Atıştırmalık</p>
+            </div>
+
+            <div class="col-sm">
+              <div class="card btn-hover">
+                <div class="card-img">
+                  <img
+                    src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/category/list/6/icecek-262349-396x168.png"
+                    alt="card9" class="small-card-style">
+                </div>
+              </div>
+              <p class="text-b">İçecek</p>
+            </div>
+
+            <div class="col-sm">
+              <div class="card btn-hover">
+                <div class="card-img">
+                  <img
+                    src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/category/list/7/deterjan-temizlik-menu-gorsel-2021-cecbf3-396x168.png"
+                    alt="card10" class="small-card-style">
+                </div>
+              </div>
+              <p class="text-black-color-15px">Deterjan,Temizlik</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <div class="card btn-hover">
+                <div class="card-img">
+                  <img
+                    src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/category/list/8/kisiselbakim-kozmetik-menu-gorsel-2021-395704-396x168.png"
+                    alt="card11" class="small-card-style">
+                </div>
+              </div>
+              <p class="text-black-color-15px">Kişisel Bakım,Kozmetik</p>
+            </div>
+
+            <div class="col-sm">
+              <div class="card btn-hover">
+                <div class="card-img">
+                  <img
+                    src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/category/list/9/bebekoyuncak-3b76c0-396x168.png"
+                    alt="card12" class="small-card-style">
+                </div>
+              </div>
+              <p class="text-black-color-15px">Anne,Bebek</p>
+            </div>
+
+            <div class="col-sm">
+              <div class="card btn-hover">
+                <div class="card-img">
+                  <img
+                    src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/category/list/10/evpet-121dcf-396x168.png"
+                    alt="card13" class="small-card-style">
+                </div>
+              </div>
+              <p class="text-black-color-15px">Ev,Yaşam</p>
+            </div>
+
+            <div class="col-sm">
+              <div class="card btn-hover">
+                <div class="card-img">
+                  <img
+                    src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/category/list/71916/kitap-kirtasiye-oyuncak-menu-gorsel-2021-adf381-396x168.png"
+                    alt="card14" class="small-card-style">
+                </div>
+              </div>
+              <p class="text-black-color-15px">Kitap,Kırtasiye,Oyuncak</p>
+            </div>
+
+            <div class="col-sm">
+              <div class="card btn-hover">
+                <div class="card-img">
+                  <img
+                    src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/category/list/1282/msm-cicek-menu-gorseli-2021-3ae5ed-396x168.png"
+                    alt="card15" class="small-card-style">
+                </div>
+              </div>
+              <p class="text-black-color-15px">Çiçek</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <div class="card text-center bg-light color-h5">
+      <div class="card-body">
+        <h5 class="card-title text-black-color-23px">Bizi Takip Edin</h5>
+        <a href="https://www.facebook.com/MigrosTurkiye"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/migros_tr/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/user/TVMigros"><i class="fab fa-youtube"></i></a>
+        <br>
+        <h5 class="text-black-color-23px">Müşteri Hizmetleri</h5>
+        0850 000 00 000
+      </div>
+      <div class="card-footer text-black-color-15px">
+        zelis © 2021 Tüm hakları saklıdır.
+        Proje ödevleri için örnek alınmıştır.orijinal değildir.
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="scripts/main.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+
+</body>
+
+</html>

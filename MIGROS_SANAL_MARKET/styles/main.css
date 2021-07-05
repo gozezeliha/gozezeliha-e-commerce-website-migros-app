@@ -1,0 +1,203 @@
+.header-bg-color{
+    background-color: #FE5603;
+    height: 90px !important;
+}
+
+.migros-logo-style{
+    background-color: white !important;
+    border-radius: 10px;
+}
+
+.login-button-style{
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  min-width: 200px;
+  max-width: 220px;
+  height: 50px;
+  justify-content: space-between;
+  padding: .5rem;
+  border-radius: 8px;
+  color: white;  
+}
+
+.login-button-style2{
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  min-width: 400px;
+  max-width: 420px;
+  height: 50px;
+  justify-content: space-between;
+  padding: .5rem;
+  border-radius: 8px;
+  color: white;  
+}
+
+.search-button-style{
+  min-width: 450px;
+}
+
+.delivery-button-style{
+  min-width: 400px;
+  text-align: left;
+  color: black !important;
+}
+
+.basket-button-style{
+  min-width: 200px;
+}
+
+.icon-style{
+  display: flex  !important;
+}
+
+.div-center{
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+  padding: 4px;  
+}
+
+.basket-text-14{
+  color: white;
+  font-size: 14px;
+  }
+
+  .btn-hover:hover{
+    background-color:white !important;
+    border: 2px solid #025BAA !important;
+  
+  }
+
+.row-center-style{
+  display: flex;
+  align-items: center;
+}
+a.link-hover:hover{
+  color:#FE5603 !important;
+  background-color: #F9EFE6;
+  border-radius: 8px;
+  }
+
+  .text-black-color {
+    color: black  !important;
+  }
+
+  .text-black-color-23px {
+    color: black  !important;
+    font-size: 23px !important;
+    padding: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .text-black-color-15px {
+    color: black  !important;
+    font-size: 15px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 12px;
+  }
+
+  ul.color-text>li>a{
+    color: rgb(0, 0, 0) !important;
+    font-size: 13px !important;
+    font-weight:bolder;
+    font-family:sans-serif
+    
+  }
+
+.small-card-style{
+  border-radius: 8px;
+  max-width: 12rem;
+  max-height: 13rem;
+
+}
+
+.login-text-23{
+  color: #FE5603;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+.text-17{
+    color: #FE5603 !important;
+    font-size: 17px !important;
+    font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+
+
+
+
+i {
+  display: none;
+}
+
+
+.icon-style-mobile{
+  display: none  !important;
+}
+
+@media (max-width: 768px) {
+  .icon-style {
+      display: none  !important;
+  }
+
+  .icon-style-mobile {
+      display: flex !important;
+  }
+
+  .fixed-top_media {
+          position: fixed;
+          top: 0;
+          right: 0;
+          left: 0;
+          z-index: 1030;
+  }
+}
+
+
+
+.black-text-color-16{
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: #303030;
+}
+
+.green-button-bgcolor{
+background: #7BC952;
+border-radius: 4px;
+color: #FFFFFF !important;
+font-size: 16px !important;
+}
+
+.green-text-14{
+color: #7BC952;
+}
+
+.border-color-green{
+border:2px solid #7BC853
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+i:hover{
+color: #FF7F00 !important;
+}
+
+
+
